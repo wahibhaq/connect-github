@@ -41,22 +41,3 @@ print "**One Specific Repository**\n"
 
 print x.fetch_repo_detail('android-opencv-lanedetection')
 
-
-
-
-
-
-
-
-
-'''MAIN CODE'''
-
-
-'''
-1) storing github profile
-2) storing github Organization
-3) storing github profile - Organization (many-many)
-4) storing github repos
-    5) storing portfolio project 
-    6) storing portfolio project - profile (many-many)
-'''
