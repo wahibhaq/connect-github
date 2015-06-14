@@ -4,11 +4,8 @@ import json
 
 print "\n**Loggin In**\n"
 
-#username = raw_input("Enter github username : ") #wahibhaq
-#password = getpass.getpass() 
-
-username = "wahibhaq"
-password = "githu3|P@kiblue1@#"
+username = raw_input("Enter github username : ")
+password = getpass.getpass() 
 
 x = GithubFetch(username, password)
 
