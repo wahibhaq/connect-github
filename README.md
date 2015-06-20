@@ -4,11 +4,14 @@ This is a python implementation to show how to connect and fetch data from Githu
 
 Requirements : 
 
-Install PyGithub : http://jacquev6.net/PyGithub/v1/introduction.html#download-and-install
-Python 2.7
+* PyGithub which can be installed using $ pip install PyGithub==1.25.2
+* Python 2.7
+
+Explore PyGithub API : http://jacquev6.net/PyGithub/v1/apis.html
 
 How to run :
 
-$ python testgithub.py
+1) $ python connect-github/testgithub.py
+2) enter username and password
 
-PyGithub API : http://jacquev6.net/PyGithub/v1/apis.html
+

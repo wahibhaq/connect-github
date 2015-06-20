@@ -14,7 +14,6 @@ print "\n**Profile**\n"
 
 print x.fetch_profile_data()
 
-
 '''Organization'''
 print "\n**Organization**\n"
 

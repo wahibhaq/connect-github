@@ -24,12 +24,15 @@ class GithubFetch:
             
             githubHandler = Github(username, password)
             user = githubHandler.get_user()
+
+            if user.login:
+                print "\nLogin Status : Successful"
+
             NoneReplacement = ''
 
         except GithubException,e:
-            print "Error : %s " % str(e)
-            sys.exit
-
+            print "\nLogin Status : Failure"
+            sys.exit()
 
 
     #http://jacquev6.net/PyGithub/v1/github_objects/AuthenticatedUser.html    #no_of_repos, followers, following, organizations, languages, 
