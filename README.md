@@ -11,7 +11,7 @@ Explore PyGithub API : http://jacquev6.net/PyGithub/v1/apis.html
 
 How to run :
 
-1) $ python connect-github/testgithub.py
-2) enter username and password
+* $ python connect-github/testgithub.py
+* enter username and password
 
 
